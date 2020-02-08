@@ -2,17 +2,15 @@
   .full 
     margin-left: 38%
 
-/**/
-
 @media all and (min-width: 1800px) and (max-width: 2000px) 
   .full 
     margin-left: 23%
 
 @media all and (min-width: 1440), (max-width: 1600px) 
-  .full 
-    margin-left: 14.5% 
+  .full
+    margin-left: 14.5%
 
-@media all and (min-width: 300), (max-width: 800px) 
+@media all and (min-width: 300), (max-width: 600px) 
   body 
     width: 100%
     background-image: none
@@ -30,8 +28,8 @@
       background-size: 80%
   
 
-  .swiper-container 
-     display: none 
+  .swiper-container
+     display: none
 
   .ins 
     left: 75%
@@ -40,53 +38,70 @@
   .vk 
     left: 85%
     top: 23px
+  
 
   .action1 
-    top: 20px
+    top: 60px
     left: 8%
   
   .action2 
-    top: 150px
+    top: 185px
     left: 8%
   
   .action3 
-    top: 280px
+    top: 310px
     left: 8%
   
-  .action img:nth-child(1) 
+  .action object:nth-child(1) 
       display: none
   
-  .action img:nth-child(2) 
+  .action object:nth-child(2) 
       display: none
   
-  .string1 
+  .news object:nth-child(1) 
       display: none
   
-  .string2 
+  .news object:nth-child(2) 
       display: none
   
-.feedback 
-      display: none
+  .feedback 
+      /* display: none; */
+      top: 170px
+      left: 55%
+      background: linear-gradient(to top, #382011, #696156)
+      font-size: 14px
+      z-index: 1
   
-.action-name, .news-name 
+
+  .modal-content 
+    width: 60%
+    padding-top: 10%
+  
+  
+  .action-name, .news-name 
       display:none
   
-.news1
+  
+
+  .middle 
+    background-image: url("../img/backgroundBody.png")
+  
+  
+ .news1 
     top: 300px
     left: 8%
-   
-
-.news2 
+ 
+ .news2 
     top: 650px
     left: 8%
  
-.news3 
+ .news3 
     top: 1000px
     left: 8%
  
 .archive 
     margin-left: 60%
-    top: 1700px 
+    top: 1700px
 
 .copyright 
     top: 1700px
@@ -94,16 +109,25 @@
     left: 5%
 
 
+
     .navigation 
     overflow: hidden
     position: absolute
     top: 23px
-    height: 100%
+    height: 342px
     margin-left: 6%
     background: none
-    width: auto
-    background-color: red
+    width: 200px
 
+
+
+    .navigation ul   
+      border: 1px solid rgba(233, 225, 225, 0.801)
+      display: none
+      z-index: 2
+      height: 100%
+      background-color: rgba(235, 229, 217, 0.932)
+    
     .navigation [type="checkbox"] 
        display: none
       
@@ -118,17 +142,34 @@
        cursor: pointer
        position: relative
 
-    .navigation li 
-      padding: 20px 20px 10px 65px
-      border: 1px solid rgba(228, 221, 221, 0.301)
-   
 
-    input.toggleMenu:checked ~ ul{
+       .navigation li 
+      padding: 20px 20px 10px 30px
+      border: 1px solid rgba(224, 218, 218, 0.842)
+   
+   
+     input.toggleMenu:checked ~ ul{
       display: block
-      background-color: red
+      
+    
 
-       
+    .navigation .adapt 
+      font-size: 14px
+      font-weight: bolder
+      position: static
    
+   .navigation a:hover 
+      color: #ffffff
+   
+   .navigation li:hover 
+      background-color: #636f8d
+   
+   .navigation li:active 
+      background-color: #2d313b
+   
+   
+ 
+
 
  
 /*# sourceMappingURL=media.css.map */

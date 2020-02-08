@@ -44,7 +44,8 @@ body {
 .ins {
   position: absolute;
   top: 10px;
-  left: 11px; }
+  left: 11px;
+}
 
 .vk {
   position: absolute;
@@ -140,7 +141,7 @@ body {
 
 .line1 {
   position: absolute;
-  top: 51px; }
+  top: 51px;}
 
 .line2 {
   position: absolute;
@@ -156,13 +157,13 @@ body {
   position: relative; 
 }
 
-.action img:nth-child(1) {
+.action object:nth-child(1) {
   margin-left: 342px;
   margin-top: 27px;
   
 }
 
-.action img:nth-child(2) {
+.action object:nth-child(2) {
   margin-left: 186px;
   margin-top: 27px;}
 
@@ -230,13 +231,13 @@ body {
 
 }
 
-.string1 {
+.news object:nth-child(1) {
   position: absolute;
   top: 3px;
   left: 344px;
 } 
 
-.string2 {
+.news object:nth-child(2) {
   position: absolute;
   top: 3px;
   left: 575px; }
