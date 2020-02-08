@@ -148,21 +148,27 @@ body {
 
 .middle {
   height: 633px;
-  position: relative; }
+  position: relative; 
+  ;
+}
 
 .action {
-  position: relative; }
+  position: relative; 
+}
 
 .action img:nth-child(1) {
   margin-left: 342px;
-  margin-top: 27px; }
+  margin-top: 27px;
+  
+}
 
 .action img:nth-child(2) {
   margin-left: 186px;
-  margin-top: 27px; }
+  margin-top: 27px;}
 
 .design {
-  color: white; }
+  color: white;
+   }
 
 .action-name {
   font-family: "MyriadProCondRegular";
@@ -171,7 +177,9 @@ body {
   color: #321f18;
   margin-left: 415px;
   position: absolute;
-  top: 24px; }
+  top: 24px;
+
+}
 
 .action1 {
   font-size: 18px;
@@ -203,7 +211,8 @@ body {
 .board1 {
   margin-top: 22px;
   text-align: center;
-  font-family: "LC Chalk"; }
+  font-family: "LC Chalk"; 
+}
 
 .board2 {
   margin-top: 19px;
@@ -217,15 +226,20 @@ body {
 
 .news {
   position: relative;
-  top: 160px; }
+  top: 160px; 
+
+}
 
 .string1 {
-  margin-left: 332px;
-  margin-top: 27px; }
+  position: absolute;
+  top: 3px;
+  left: 344px;
+} 
 
 .string2 {
-  margin-left: 186px;
-  margin-top: 27px; }
+  position: absolute;
+  top: 3px;
+  left: 575px; }
 
 .news-name {
   position: absolute;
@@ -235,7 +249,9 @@ body {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bolder;
-  color: #321f18; }
+  color: #321f18;
+
+}
 
 .news1 {
   position: absolute;
